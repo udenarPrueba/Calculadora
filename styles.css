@@ -1,32 +1,38 @@
-body{
-    background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,100,121,1) 35%, rgba(0,212,255,1) 100%);
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 100, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
+
 .conte1 {
     position: relative;
     padding: 20px 16px 24px;
     background-color: #e6e6e6;
     border-radius: 8px;
     border: 1px solid #f3f3f3;
-    box-shadow:none;
+    box-shadow: none;
 }
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    }
-    
-.div1 { grid-area: 2 / 3 / 3 / 4; }
+}
+
+.div1 {
+    grid-area: 2 / 3 / 3 / 4;
+}
 
 div {
     display: block;
 }
+
 .g {
     line-height: 1.58;
     text-align: left;
 }
+
 select {
     writing-mode: horizontal-tb !important;
     text-rendering: auto;
@@ -53,6 +59,7 @@ select {
     border-image: initial;
     border-radius: 0px;
 }
+
 .selectTem {
     color: rgb(0, 0, 0);
     background-position-x: 98%;
@@ -68,12 +75,12 @@ select {
     appearance: none;
 }
 
-
 .conte2 {
     display: inline-block;
     width: 211px;
     padding-top: 10px;
 }
+
 .inputValores {
     background-color: #fcfcfc;
     border: 1px solid #ffffff;
@@ -104,7 +111,6 @@ select {
     appearance: none;
 }
 
-
 .igual {
     display: inline-block;
     line-height: 44px;
@@ -118,11 +124,13 @@ select {
     margin-right: -4px;
     font-weight: bold;
 }
-.row{
+
+.row {
     text-align: center;
     margin-top: 8px;
 }
-.btn{
+
+.btn {
     border-radius: .2rem;
     border-color: none;
     padding: 5px 10px;
