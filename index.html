@@ -75,19 +75,21 @@
                             <input class="col" type="button" value="4" onclick="input('4')">
                             <input class="col" type="button" value="5" onclick="input('5')">
                             <input class="col" type="button" value="6" onclick="input('6')">
-                            <input class="col" type="button" value="+" onclick="input('+')">
+                            <input class="col" type="button" value="+" onclick="input('+')" id="operandoMas" />
+
                         </div>
                         <div class="row">
                             <input class="col" type="button" value="1" onclick="input('1')">
                             <input class="col" type="button" value="2" onclick="input('2')">
                             <input class="col" type="button" value="3" onclick="input('3')">
-                            <input class="col" type="button" value="-" onclick="input('-')">
+                            <input class="col" type="button" value="-" onclick="input('-')" id="operandoMenos" />
                         </div>
                         <div class="row">
                             <input class="col" type="button" value="." onclick="input('.')">
                             <input class="col" type="button" value="0" onclick="input('0')">
-                            <input class="col" type="button" value="/" onclick="input('/')">
-                            <input class="col" type="button" value="x" onclick="input('*')">
+                            <input class="col" type="button" value="Convertir" onclick="convertPascalBar()" id="convertir" style="display: none" />
+                            <input class="col" type="button" value="/" onclick="input('/')" id="operandoDiv" />
+                            <input class="col" type="button" value="x" onclick="input('*')" id="operandoMult" />
                         </div>
                         <div class="row">
                             <input class="col" type="button" value="RESET" id="reset" onclick="reset()">
@@ -95,7 +97,10 @@
                         </div>
                         <div class="row">
                             <input class="col" type="button" value="Temperatura" id="" onclick="window.location.href='./vistas/temperatura.html'">
-                          </div>
+                        </div>
+                        <div class="row">
+                            <input class="col" type="button" value="Calcular la Presion de Pascal a Bar " id="pascalBar" />
+                        </div>
                     </div>
 
                 </div>
