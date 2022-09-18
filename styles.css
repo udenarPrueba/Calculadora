@@ -3,6 +3,11 @@ body {
     background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 100, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
+.bodymasa {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, hwb(355 3% 26%) 0%, #610659 35%, #af1a10 100%);
+}
+
 .conte1 {
     position: relative;
     padding: 20px 16px 24px;
