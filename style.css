@@ -108,7 +108,13 @@
     border: 2px solid var(--key-red-background);
     transition: var(--transition);
 }
-
+#convertir{
+    background-color: var(--key-red-background);
+    color: var(--key-background);
+    box-shadow: 1px 1.5px 1px var(--key-red-shadow);
+    border: 2px solid var(--key-red-background);
+    transition: var(--transition);
+}
 /* Animaciones de desplazamiento de teclas */
 .calc-keys input:hover{
     border: 2px solid var(--key-background);
