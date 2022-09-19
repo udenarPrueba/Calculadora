@@ -122,13 +122,9 @@ function myFunction_set(val) {
     // cambiando el tema con los resultados anteriores
     if (val == 1) {
         theme.defaul();
-    }
-
-    else if (val == 2) {
+    } else if (val == 2) {
         theme.light();
-    }
-
-    else {
+    } else {
         theme.dark();
     }
 
@@ -199,3 +195,14 @@ valor.addEventListener('keyup', () => {
     let calculo = (valor.value * 9 / 5) + 32
     resultado.value = calculo;
 });
+
+//Función Masa-Sebastian
+let gramos = document.getElementById("resGramos");
+let kilo = document.querySelector('#kilo');
+
+kilo.addEventListener('keyup', () => {
+    let calculo = kilo.value * 1000
+    gramos.value = calculo;
+});
+console.log(kilo);
+console.log(gramos);
